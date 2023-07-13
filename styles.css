@@ -1,0 +1,110 @@
+.logo {
+  margin-top: -13px;
+  margin-bottom: -9px;
+  width: 46px;
+}
+#Section2, #Section4 {
+  text-align: center;
+  padding: 110px 90px 150px;
+}
+.h-line {
+  border-bottom: 1px black solid;
+  padding-bottom: 10px;
+}
+.vh-100 {
+  height: 100vh;
+}
+.h-25vw {
+  height: 25vw;
+}
+#Section3 {
+  max-width: 900px;
+}
+#Section3 .sec3-h {
+  padding-bottom: 55px;
+}
+#Section3 .cs {
+  color: #f5f1ff;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px black;
+  opacity: 0.7;
+  transition: all 0.8s ease;
+}
+#Section3 .cs:hover {
+  opacity: 0.9;
+}
+#Section3 .c1 {
+  background: no-repeat 6% 12%/105% url(assets/var-03.jpeg);
+}
+#Section3 .c1:hover {
+  background: no-repeat 6% 12%/107% url(assets/var-03.jpeg);
+}
+#Section3 .c2 {
+  background: no-repeat 6% 12%/105% url(assets/var-04.jpeg);
+}
+#Section3 .c2:hover {
+  background: no-repeat 6% 12%/107% url(assets/var-04.jpeg);
+}
+#Section3 .c3 {
+  background: no-repeat 6% 12%/105% url(assets/var-05.jpg);
+}
+#Section3 .c3:hover {
+  background: no-repeat 6% 12%/107% url(assets/var-05.jpg);
+}
+#Section3 .c4 {
+  background: no-repeat 6% 46%/120% url(assets/var-03.jpeg);
+}
+#Section3 .c4:hover {
+  background: no-repeat 6% 46%/122% url(assets/var-03.jpeg);
+}
+#Section3 .c5 {
+  background: no-repeat 6% 46%/120% url(assets/var-04.jpeg);
+}
+#Section3 .c5:hover {
+  background: no-repeat 6% 46%/122% url(assets/var-04.jpeg);
+}
+.v-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 576px) {
+  .w100 {
+    width: 100%;
+ }
+  .vh-40 {
+    height: 40vh;
+ }
+  .vh-25 {
+    height: 25vh;
+ }
+  .c1 {
+    height: 30vh;
+ }
+  .c2, .c3, .c4, .c5 {
+    flex: 0 0 auto;
+    height: 25vh;
+    margin-top: 4% !important;
+    width: 48% !important;
+ }
+}
+@media (min-width: 576px) {
+  .vh-40-sm {
+    height: 40vh;
+ }
+  .col-sm-40 {
+    flex: 0 0 auto;
+    width: 30%;
+ }
+  .c1, .c2 {
+    height: 40vh;
+    flex: 0 0 auto;
+    width: 48% !important;
+ }
+  .c3, .c4, .c5 {
+    flex: 0 0 auto;
+    height: 35vh;
+    margin-top: 4% !important;
+    width: 31% !important;
+ }
+}
