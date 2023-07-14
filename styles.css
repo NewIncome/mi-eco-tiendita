@@ -17,9 +17,29 @@
 .h-25vw {
   height: 25vw;
 }
-#Section3 {
-  max-width: 900px;
+.bg-org{
+  color: #fff;
+  background-color: rgb(240, 86, 25);
+  border-color: rgb(240, 86, 25);
 }
+.bg-org:hover{
+  color: #fff;
+  background-color: rgb(206, 82, 32);
+  border-color: rgb(206, 82, 32);
+}
+.cr-1, .cr-2, .cr-3{
+  background: no-repeat top/cover url(assets/var-02.jpeg);
+}
+.cr-img{
+  height: 90vh;
+}
+/*
+  background-color: #28a745;
+  border-color: #28a745;
+  hover
+  background-color: #218838;
+  border-color: #1e7e34;
+*/
 #Section3 .sec3-h {
   padding-bottom: 55px;
 }
@@ -107,4 +127,7 @@
     margin-top: 4% !important;
     width: 31% !important;
  }
+  .carousel-caption {
+    bottom: 25% !important;
+  }
 }
