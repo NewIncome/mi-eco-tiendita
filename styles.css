@@ -33,13 +33,6 @@
 .cr-img{
   height: 90vh;
 }
-/*
-  background-color: #28a745;
-  border-color: #28a745;
-  hover
-  background-color: #218838;
-  border-color: #1e7e34;
-*/
 #Section3 .sec3-h {
   padding-bottom: 55px;
 }
@@ -88,6 +81,46 @@
   align-items: center;
   justify-content: center;
 }
+#Section5 .card {
+  padding: 5rem !important;
+}
+#Section5 .sec-img-5 {
+  width: 120px;
+}
+#Section5 h4, h6{
+  font-weight: bold;;
+}
+#Section5 h4 {
+  color: #218838;
+}
+.social {
+  justify-content: center;
+}
+.social li {
+  margin: 0 10px;
+}
+.social-link {
+  background-color: #f2f2f2;;
+  border-radius: 20px;
+  display: block;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+.social-link:hover {
+  background-color: #28a745;
+}
+.social-ico {
+  border-radius: 15px;
+  filter: invert(35%);
+  vertical-align: -moz-middle-with-baseline;
+  vertical-align: -webkit-baseline-middle;
+  width: 40px;
+  padding: 10px;
+}
+.social-ico:hover {
+  filter: invert(98%);
+}
 @media (max-width: 576px) {
   .w100 {
     width: 100%;
@@ -106,6 +139,9 @@
     height: 25vh;
     margin-top: 4% !important;
     width: 48% !important;
+ }
+ .contact-text {
+  display: none;
  }
 }
 @media (min-width: 576px) {
@@ -129,5 +165,8 @@
  }
   .carousel-caption {
     bottom: 25% !important;
+  }
+  #Section5{
+    display: flex;
   }
 }
