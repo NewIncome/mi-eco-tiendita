@@ -99,6 +99,9 @@
 .social li {
   margin: 0 10px;
 }
+.social-link, .social-ico {
+  transition: all 0.6s ease;
+}
 .social-link {
   background-color: #f2f2f2;;
   border-radius: 20px;
@@ -121,6 +124,36 @@
 .social-ico:hover {
   filter: invert(98%);
 }
+#Footer {
+  padding: 2rem;
+}
+#Footer .attribute {
+  position: relative;
+}
+#Footer .attribute a {
+  color: #00ca16;
+  font-style: italic;
+  font-size: small;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#Footer .attribute a:hover {
+  color: #00ca16;
+  text-decoration: none;
+}
+.dev {
+  color: #cbecd2;
+  font-style: italic;
+  padding-left: 3px;
+}
+.dev:hover {
+  color: #cbecd2;
+  text-shadow: 1px 1px gray;
+}
+.cards {
+  width: 32px;
+}
 @media (max-width: 576px) {
   .w100 {
     width: 100%;
@@ -142,6 +175,9 @@
  }
  .contact-text {
   display: none;
+ }
+ .payments {
+  height: 70px;
  }
 }
 @media (min-width: 576px) {
@@ -169,4 +205,7 @@
   #Section5{
     display: flex;
   }
+  .payments {
+    height: 50%;
+   }
 }
